@@ -62,7 +62,7 @@
         {% for hemispheres in mars.hemispheres %}
         <div class="col-md-3">
           <div class="thumbnail">
-            <img src="{{hemispheres.img_url | default('static/images/error.png', true)}}" class="img_thumbnail" alt="Cinque Terre">
+            <img src="{{hemispheres.img_url | default('static/images/error.png', true)}}" class="img_thumbnail" alt="...">
             <div class="caption">
               <h3>{{hemispheres.title}}</h3>
             </div>
