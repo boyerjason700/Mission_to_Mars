@@ -29,7 +29,7 @@ Automate a browser to scrape multiple sites to extract data and images (`Beautif
 
 # Process
 1. Scraping.py
-    - Beautifulsoup and Splinter; drill down into the HTML tags to extract the most recent news artile and summary from Mars News site
+    - Beautifulsoup and Splinter; drill down into the HTML tags to extract the most recent news article and summary from Mars News site
     - Beautifulsoup and Splinter; drill down into the HTML tags to extract the most recent image from Space Images site
     - Pandas; scrape Mars/Earth table and read as DataFrame then convert into HTML from Mars Facts site
     - Beautifulsoup and Splinter; drill down into the HTML tags to extract all four full size hemisphere images from Mars Hemisphere site
@@ -37,11 +37,12 @@ Automate a browser to scrape multiple sites to extract data and images (`Beautif
 2. App.py
     - create app to connect MongoDB through Flask to set up web page
 3. Index.html
-    - create containers to display news article, images and table
+    - create containers to display news article, images, and table
     - create 'Scrape New Data' button to perform our scraping function
     - refactor code to ensure data displayed is responsive to multiple device sizes
-    - Bootstrap; customize web page apprearance
+    - Bootstrap; customize web page appearance
 
 # Summary
-Our Flask app displays the most recent article scraped from the NASA Mars News site, an updated image from the Space Images site and a table from the Mars Facts site.  Four hemisphere images scraped from the Mars Hemisphere site are displayed at the bottom.  The page is responsive to desktops, tablets and phones.
+Our Flask app displays the most recent article scraped from the NASA Mars News site, an updated image from the Space Images site and a table from the Mars Facts site.  Four hemisphere images scraped from the Mars Hemisphere site are displayed at the bottom.  The page is responsive to desktops, tablets, and phones.
+
 ![127 0 0 1_5000_ (1)](https://user-images.githubusercontent.com/74840026/130889013-120c28c9-d436-457c-8721-5fbae8e033a2.png)
