@@ -14,6 +14,8 @@ Automate a browser to scrape multiple sites to extract data and images (`Beautif
     - Beautifulsoup
     - Splinter
     - Flask
+- Bootstrap
+
 ## Sites used:
 [NASA Mars News](https://mars.nasa.gov/news/?page=0&per_page=40&order=publish_date+desc%2Ccreated_at+desc&search=&category=19%2C165%2C184%2C204&blank_scope=Latest)
 
@@ -26,5 +28,5 @@ Automate a browser to scrape multiple sites to extract data and images (`Beautif
 # Process
 
 # Summary
-
+Our Flask app displays the most recent article scraped from the NASA Mars News site, an updated image from the Space Images site and a table from the Mars Facts site.  Four hemisphere images scraped from the Mars Hemisphere site are displayed at the bottom.  The page is responsive to desktops, tablets and phones.
 ![127 0 0 1_5000_ (1)](https://user-images.githubusercontent.com/74840026/130889013-120c28c9-d436-457c-8721-5fbae8e033a2.png)
