@@ -1,5 +1,6 @@
+<!-- ![mtm33](https://user-images.githubusercontent.com/74840026/131065096-0960109e-69db-4cd1-9dba-016dde0f4385.png) -->
 <p align="center">
-  <img width="500" height="500" src="https://user-images.githubusercontent.com/74840026/131064047-b76f9c8a-675c-4070-9ef5-7b82ad87e19f.png">
+  <img src="https://user-images.githubusercontent.com/74840026/131065096-0960109e-69db-4cd1-9dba-016dde0f4385.png">
 </p>
 
 # Mission_to_Mars
