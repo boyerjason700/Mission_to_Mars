@@ -11,9 +11,11 @@ Automate a browser to scrape multiple sites to extract data and images (`Beautif
 - HTML
 - MongoDB
 - Python
+    - Pandas
     - Beautifulsoup
     - Splinter
     - Flask
+    - PyMongo
 - Bootstrap
 
 ## Sites used:
@@ -26,6 +28,19 @@ Automate a browser to scrape multiple sites to extract data and images (`Beautif
 [Mars Hemisphere](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars)
 
 # Process
+1. Scraping.py
+    - Beautifulsoup and Splinter; drill down into the HTML tags to extract the most recent news artile and summary from Mars News site
+    - Beautifulsoup and Splinter; drill down into the HTML tags to extract the most recent image from Space Images site
+    - Pandas; scrape Mars/Earth table and read as DataFrame then convert into HTML from Mars Facts site
+    - Beautifulsoup and Splinter; drill down into the HTML tags to extract all four full size hemisphere images from Mars Hemisphere site
+    - Store scraped data in MongoDB database
+2. App.py
+    - create app to connect MongoDB through Flask to set up web page
+3. Index.html
+    - create containers to display news article, images and table
+    - create 'Scrape New Data' button to perform our scraping function
+    - refactor code to ensure data displayed is responsive to multiple device sizes
+    - Bootstrap; customize web page apprearance
 
 # Summary
 Our Flask app displays the most recent article scraped from the NASA Mars News site, an updated image from the Space Images site and a table from the Mars Facts site.  Four hemisphere images scraped from the Mars Hemisphere site are displayed at the bottom.  The page is responsive to desktops, tablets and phones.
