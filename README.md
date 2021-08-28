@@ -47,7 +47,7 @@ Automate a browser to scrape multiple sites to extract data and images (`Beautif
     - create containers to display news article, images, and table
     - create 'Scrape New Data' button to perform our scraping function
     - refactor code to ensure data displayed is responsive to multiple device sizes
-    - Bootstrap; customize web page appearance
+    - Bootstrap; customize web page appearance(background color change, jumbotron image fill, button color change, text color change)
 
 # Summary
 Our Flask app displays the most recent article scraped from the NASA Mars News site, an updated image from the Space Images site and a table from the Mars Facts site.  Four hemisphere images scraped from the Mars Hemisphere site are displayed at the bottom.  The page is responsive to desktops, tablets, and phones.
